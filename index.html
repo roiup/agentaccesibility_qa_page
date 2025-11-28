@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>TechSolutions - Innovación Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header con navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+                <h1>TechSolutions</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#lang">
+                        <img src="es-flag.svg" height="12" alt="es" width="18">
+                        <label>Español</label>
+                    </a></li>
+                </ul>
+            </nav>
+            <button type="submit" class="icon-search"></button>
+        </div>
+    </header>
+
+    <!-- Audio que se reproduce automáticamente -->
+    <audio autoplay loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Transformamos tu negocio digital</h2>
+            <p class="hero-subtitle">Soluciones tecnológicas innovadoras para empresas del futuro</p>
+            <button class="cta-button flashing">Comenzar Ahora</button>
+        </div>
+    </section>
+
+    <!-- Servicios Section -->
+    <section id="servicios" class="servicios">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio-card">
+                    <i class="icon-web beige"></i>
+                    <h3>Desarrollo Web</h3>
+                    <p>Creamos sitios web modernos y funcionales</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="icon-mobile verde"></i>
+                    <h3>Apps Móviles</h3>
+                    <p>Aplicaciones nativas para iOS y Android</p>
+                </div>
+                <div class="servicio-card">
+                    <i class="icon-cloud azul"></i>
+                    <h3>Cloud Solutions</h3>
+                    <p>Infraestructura en la nube escalable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros Section con texto en inglés -->
+    <section id="nosotros" class="nosotros">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa líder en transformación digital con más de 10 años de experiencia.</p>
+            <p>Our mission is to deliver innovative solutions that drive business growth and digital transformation.</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number low-contrast">500+</span>
+                    <span class="stat-label">Proyectos</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number low-contrast">50+</span>
+                    <span class="stat-label">Clientes</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number low-contrast">15+</span>
+                    <span class="stat-label">Países</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2>Contáctanos</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@email.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input size="40" maxlength="80" class="form-control" aria-required="true" aria-invalid="false" placeholder="Ej. +34 688 456 345" value="" type="tel" name="telefono" id="telefono">
+                </div>
+                
+                <div class="form-group">
+                    <label for="pais">País</label>
+                    <div class="country-selector">
+                        <div class="country-option selected" data-country="es">
+                            <span>España</span>
+                        </div>
+                        <div class="country-option" data-country="pt">
+                            <span>Portugal</span>
+                        </div>
+                        <div class="country-option" data-country="mx">
+                            <span>México</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos sobre tu proyecto"></textarea>
+                </div>
+                
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TechSolutions. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon"></a>
+                <a href="#" class="social-icon"></a>
+                <a href="#" class="social-icon"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
