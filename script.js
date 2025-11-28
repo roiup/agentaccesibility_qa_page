@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Aplicar animación a las tarjetas de servicios
     const servicioCards = document.querySelectorAll('.servicio-card');
     servicioCards.forEach(card => {
-        card.style.opacity = '0';
+        // card.style.opacity = '0'; // Removed to fix accessibility issue with contrast
         card.style.transform = 'translateY(20px)';
         card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
         observer.observe(card);
