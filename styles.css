@@ -191,7 +191,11 @@ body {
 .servicio-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #2c3e50;
+    color: #000000;
+}
+
+.servicio-card p {
+    color: #222222;
 }
 
 /* Sobre Nosotros Section */
